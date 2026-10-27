@@ -16,8 +16,7 @@ functions and realtime changes for the VAIF Studio API.
 | Dart | Dart 3.7 or later, or Flutter 3.29 or later | 1.0.0 prepared, not yet tagged | [vaifstudio/vaif-dart](https://github.com/vaifstudio/vaif-dart) |
 | Python | Python 3.10 through 3.14 | 1.0.0 prepared, not yet tagged | [vaifstudio/vaif-python](https://github.com/vaifstudio/vaif-python) |
 
-Until a version is tagged, install from the default branch as each
-repository's README describes. The hosted API is not available yet.
+The hosted API is not available yet.
 
 ## Security
 
