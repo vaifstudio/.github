@@ -1,17 +1,25 @@
-<p align="center">
-  <a href="https://vaif.studio"><img src="https://vaif.studio/android-chrome-512x512.png" width="72" alt="VAIF Studio" /></a>
-</p>
+# VAIF Studio
 
-<h3 align="center">VAIF Studio</h3>
-<p align="center">The backend platform with Verament built in: Postgres, auth, storage, realtime, functions and an AI that builds with you.</p>
+VAIF Studio is a backend platform. You describe a backend in plain English, and
+VAIF designs the Postgres schema, REST APIs, realtime and functions, with
+export to your own cloud. Website: [vaif.studio](https://vaif.studio).
 
-<p align="center">
-  <a href="https://vaif.studio">Website</a> ·
-  <a href="https://x.com/vaif_studio">X</a>
-</p>
+## Client SDKs
 
----
+Each SDK covers end-user authentication, database queries, file storage,
+functions and realtime changes for the VAIF Studio API.
 
-This organization holds VAIF Studio's public code: the client SDKs, the CLI and examples, as each one is published.
+| Language | Runtime | Status | Repository |
+| --- | --- | --- | --- |
+| Go | Go 1.26.10 or later | 1.0.0 prepared, not yet tagged | [vaifstudio/vaif-go](https://github.com/vaifstudio/vaif-go) |
+| Swift | Swift 6.0 or later; iOS 15, macOS 12, tvOS 15, watchOS 8, visionOS 1 | 1.0.0 prepared, not yet tagged | [vaifstudio/vaif-swift](https://github.com/vaifstudio/vaif-swift) |
+| Dart | Dart 3.7 or later, or Flutter 3.29 or later | 1.0.0 prepared, not yet tagged | [vaifstudio/vaif-dart](https://github.com/vaifstudio/vaif-dart) |
+| Python | Python 3.10 through 3.14 | 1.0.0 prepared, not yet tagged | [vaifstudio/vaif-python](https://github.com/vaifstudio/vaif-python) |
 
-**Security:** please report vulnerabilities privately to security@vaif.studio, not in public issues.
+Until a version is tagged, install from the default branch as each
+repository's README describes. The hosted API is not available yet.
+
+## Security
+
+Report vulnerabilities privately to security@vaif.studio. Do not open a public
+issue. Each repository's `SECURITY.md` lists what to include.
